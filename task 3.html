@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Language of page -->
+<head> <!--head open-->
+<meta charset="utf-8" /> <!--Code Converter-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--for supporting all elements in microsoft edge browser-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--for responsive design only-->
+<title>Task 3 - Form</title> <!--for giving page title in browser-->
+</head> <!--head close-->
+<body>
+<form method="post" action="">
+    <table border="1" align="center">
+        <tr>
+            <td>Create Username:</td>
+            <td><input type="text" name="name"></td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type="email" name="email"></td>
+        </tr>
+        <tr>
+            <td> Create New Password:</td>
+            <td><input type="password" name="PWD"></td>
+        </tr>
+        <tr>
+            <td> Confirm New Password:</td>
+            <td><input type="password" name="PWD"></td>
+        </tr>
+        <tr>
+            <td>About you:</td>
+            <td><textarea name="bio"></textarea></td>
+        </tr>
+        <tr>
+            <td>Profile Photo:</td>
+            <td><input type="file" name="photo"></td>
+        </tr>
+        <tr>
+            <td>Gender:</td>
+            <td><input type="radio" name="gender" value="Male">Male
+                <input type="radio" name="gender" value="Female">Female
+                <input type="radio" name="gender" value="Other">Other
+            </td>
+        </tr>
+        <tr>
+            <td>Languages Known:</td>
+            <td><input type="checkbox" name="Lan" value="English"> English
+                <input type="checkbox" name="Lan" value="Gujarati"> Gujarati
+                <input type="checkbox" name="Lan" value="Hindi"> Hindi
+            </td>
+        </tr>
+        <tr>
+            <td>Country:</td>
+            <td><select name="Country">
+<option value="India">India</option>
+<option value="Canada">Canada</option>
+<option value="USA">USA</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2">
+                <input type="submit" name="submit" value="submit">
+                <input type="Reset" name="reset" value="reset">
+            </td>
+        </tr>
+    </table>
+</form>
+<hr>
+<form method="post" action="">
+    <table border="1" align="center">
+        <tr>
+            <td>Username:</td>
+            <td><input type="text" name="name"></td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type="email" name="email"></td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td><input type="password" name="PWD"></td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2"><input type="checkbox" name="remember me" value="remember"> Remember me</td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2">
+                <input type="submit" name="login" value="login">
+                <input type="Reset" name="reset" value="reset">
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
